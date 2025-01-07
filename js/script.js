@@ -150,7 +150,7 @@ function initApp() {
         .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
     },
     priceFormat(number) {
-      return number ? `Rp. ${this.numberFormat(number)}` : `Rp. 0`;
+      return number ? `Rwf. ${this.numberFormat(number)}` : `Rwf. 0`;
     },
     clear() {
       this.cash = 0;
